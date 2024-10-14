@@ -42,3 +42,4 @@ if __name__ == "__main__":
             renew_certificate(cert["thumbprint"])
         elif cert["action"] == "RequestNew":
             request_new_certificate(cert["thumbprint"])
+
